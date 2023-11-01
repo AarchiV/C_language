@@ -33,6 +33,7 @@ main()
 	       printf("Invalid choice\n");
 	       break;
 	   }
+	   break;
 	case 2:
 	  printf("Internet Recharge ke liye 1 dabaiye\n");
 	  printf("Top-up Recharge ke liye 2 dabaiye\n");
@@ -54,6 +55,7 @@ main()
 	       printf("Invalid choice\n");
 	       break;
 	   }
+	   break;
 	case 3:
 	  printf("Internet reacharge mate 1 dabavo\n");
 	  printf("Top-up recharge mate 2 dabavo\n");
@@ -75,6 +77,7 @@ main()
 	       printf("Invalid choice\n");
 	       break;
 	   }
+	   break;
       }
       getch();
 }
