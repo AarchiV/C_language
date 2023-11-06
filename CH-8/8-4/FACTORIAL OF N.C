@@ -3,14 +3,14 @@
 
 main()
 {
-	 int n,a=1;
+	 int a,n,mul=1;
 	 clrscr();
 	 printf("Enter any number : ");
 	 scanf("%d",&n);
-	 while (a<=10)
+	 for (a=1;a<=n;a++)
 	 {
-	   printf("%dx%d=%d\n",n,a,n*a);
-	   a++;
+	   mul*=a;
 	 }
+	 printf("Factorial : %d",mul);
 	 getch();
 }
